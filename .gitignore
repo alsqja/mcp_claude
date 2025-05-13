@@ -1,0 +1,103 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+.env/
+.venv/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.pydevproject
+.settings/
+.classpath
+
+# 로그 파일
+*.log
+logs/
+logging/
+
+# MCP 관련
+mcp.config
+mcp_logs/
+.mcp_cache/
+.mcp_history/
+
+# JWT 토큰 관련
+tokens/
+*.jwt
+*.token
+
+# 테스트 관련
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 기타
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.db
+*.sqlite3
+node_modules/
+npm-debug.log*
+
+# macOS 관련
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# API 테스트 관련
+test-results/
+reports/
+screenshots/
+response-data/
+*.http
+http-client.env.json
+rest-client.env.json
