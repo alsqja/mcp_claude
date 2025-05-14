@@ -8,7 +8,7 @@ import json
 # Create an MCP server
 mcp = FastMCP("mcp_project")
 
-
+# api test mcp tool
 @mcp.tool()
 def test_server(method: str, url: str, body, access_token: str) -> str:
     """test server"""
