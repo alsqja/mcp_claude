@@ -56,7 +56,6 @@ def test_server(method: str, url: str, body, access_token: str) -> str:
         headers["Authorization"] = f"Bearer {access_token}"
 
     try:
-        # body가 이미 딕셔너리인 경우 그대로 사용하고, 문자열인 경우 파싱
         if isinstance(body, str):
             json_body = json.loads(body)
         else:
